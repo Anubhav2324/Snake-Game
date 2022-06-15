@@ -1,8 +1,5 @@
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext('2d');
-window.onload=function(){
-    ctx.drawImage(groundImg,0,0);
-}
 
 
 const box = 32;
